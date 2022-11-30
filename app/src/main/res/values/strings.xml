@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">vaje3</string>
+    <string name="prijava">Prijava</string>
+    <string name="sign">Sign-in</string>
+    <string name="odjava">Odjava</string>
+    <string name="naslov">Aplikacija iVreme</string>
+    <string name="iskanje">Iskanje</string>
+    <string name="search">Search</string>
+    <string name="poisci">Poisci mesto</string>
+    <string name="teden">Prihodnji teden</string>
+    <string name="trenutno">Trenutno</string>
+    <string name="naslovVreme">Trenutno vreme</string>
+    <string name="nazaj">Nazaj</string>
+</resources>

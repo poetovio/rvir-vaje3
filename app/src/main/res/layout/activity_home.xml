@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <TextView
+        android:id="@+id/prikazIme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TextView"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="81dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/naslov"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iskanje"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="168dp"
+        tools:layout_editor_absoluteY="318dp" />
+
+    <Button
+        android:id="@+id/iskanjeGumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:drawableLeft="@android:drawable/ic_menu_search"
+        android:text="@string/search"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="420dp" />
+
+    <EditText
+        android:id="@+id/imeLokacije"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="@string/poisci"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="362dp" />
+
+    <Button
+        android:id="@+id/odjavaGumb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/odjava"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="640dp" />
+
+    <TextView
+        android:id="@+id/mailPrikaz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="595dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
